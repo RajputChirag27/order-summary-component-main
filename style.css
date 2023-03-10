@@ -5,13 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%;
+    font-size: 90%;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 html {
     background-color: hsl(225, 100%, 94%);
     background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
     /* color:cadetblue; */
 }
 
@@ -28,8 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: hsl(225, 100%, 98%);
-    width: 30rem;
-    height: 45rem;
+    max-width: 27rem;
     /* justify-content: center; */
     align-items: center;
     border-radius: 2rem;
@@ -41,8 +41,8 @@ main {
     flex-direction: column;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    width: 30rem;
-    height: 16rem;
+    max-width: 27rem;
+    height: 15rem;
     margin-bottom: 2rem;
 }
 
@@ -132,7 +132,7 @@ transform: translate(0%, -15%) scale(1.0875, 1.0875);
 }
 
 button.cancel{
-    margin-top: 2rem;
+    margin: 2rem;
     border: none;
     background-color: hsl(225, 100%, 98%);
     font-size: 1rem;
