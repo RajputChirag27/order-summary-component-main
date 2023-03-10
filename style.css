@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 90%;
+    font-size: 100%;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -109,7 +109,6 @@ p {
 .payment {
     display: flex;
     flex-direction: column;
-
 }
 
 button.payment-button {
@@ -127,7 +126,9 @@ button.payment-button {
     color: hsl(225, 100%, 98%);
     cursor: pointer;
     box-shadow: 0rem 1rem 1rem 0rem hsl(245, 75%, 88%);
-    
+}
+button.payment-button:hover{
+transform: translate(0%, -15%) scale(1.0875, 1.0875);
 }
 
 button.cancel{
@@ -138,6 +139,11 @@ button.cancel{
     font-weight: 700;
     color: hsl(224, 23%, 55%);
     cursor: pointer;
+}
+
+button.cancel:hover{
+transform: translate(0%, -15%) scale(1.05, 1.05);
+  color: hsl(245, 75%, 52%);
 }
 
 
